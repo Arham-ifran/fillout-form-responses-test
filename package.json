@@ -1,0 +1,32 @@
+{
+  "name": "fillout-form-responses-test",
+  "version": "1.0.0",
+  "description": "This is a simple REST API server which interacts with [Fillout.com’s](https://www.fillout.com/) API to fetch form responses, but with an option to filter based on certain answers.",
+  "main": "./src/index.mjs",
+  "scripts": {
+    "start": "node ./src/index.mjs",
+    "test": "mocha ./src/api/tests/form.test.mjs"
+  },
+  "keywords": [
+    "Fillout Form Responses",
+    "REST API",
+    "Backend",
+    "Express.js",
+    "Node.js",
+    "Assessment"
+  ],
+  "author": "Arham Irfan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "joi": "^17.12.2",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "sinon": "^17.0.1"
+  }
+}
